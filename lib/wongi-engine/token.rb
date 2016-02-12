@@ -9,6 +9,7 @@ module Wongi::Engine
     attr_reader :node
     attr_reader :overlay
     attr_accessor :owner, :parent
+    attr_accessor :priority
     attr_reader :neg_join_results
     attr_reader :opt_join_results
     attr_reader :ncc_results
